@@ -32,9 +32,9 @@ Výsledky hlasování pro okres Benešov:
 2. argument - outfile.csv
 
 Spuštění programu:
-```python
+<pre>
 python C:\git_repository\engeto-projekt-3\main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" outfile.csv
-```
+</pre>
 
 Průběh stahování:
 
