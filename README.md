@@ -20,7 +20,7 @@ pip3 install -r requirements.txt   #nainstaluje knihovny
 Pro spuštění souboru "**main.py**" zadejte 2 povinné argumenty v uvedeném pořadí.
 
 <pre>
-python main.py <URL-odkaz-uzemniho-celku> <vysledny_CSV_soubor>
+python main.py "URL-odkaz-uzemniho-celku" vysledny_CSV_soubor
 </pre>
 Následně se vám stáhnou výsledky jako soubor s příponou ".**csv**".
 
