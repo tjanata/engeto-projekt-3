@@ -123,7 +123,7 @@ def scrape_and_save(url, output_file):
             if len(cells) >= 2:
                 city_number = cells[0].get_text(strip=True)
                 city_name = cells[1].get_text(strip=True)
-                print(f"Číslo obce: {city_number}, Název obce: {city_name}")  #Printing data to console
+                print(f"Kód obce: {city_number}, Název obce: {city_name}")  #Printing data to console
 
     
                 subpage_link = cells[0].find('a')['href']  #Link on the subpage
@@ -164,7 +164,7 @@ def main():
 
             #Call function for geting name of political parties from first subpage
             party_names_first_subpage = get_party_names_from_subpage(subpage_url)
-            header_list.extend(["Číslo obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy"] + party_names_first_subpage)
+            header_list.extend(["Kód obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy"] + party_names_first_subpage)
         else:
             print("Odkaz na podstránku nebyl nalezen.")
 
