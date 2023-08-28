@@ -29,11 +29,11 @@ Následně se vám stáhnou výsledky jako soubor s příponou ".**csv**".
 Výsledky hlasování pro okres Benešov:
 
 1. argument - https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101
-2. argument - outfile.csv
+2. argument - vysledky_benesov.csv
 
 Spuštění programu:
 <pre>
-python C:\git_repository\engeto-projekt-3\main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" outfile.csv
+python C:\git_repository\engeto-projekt-3\main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" vysledky_benesov.csv
 </pre>
 
 Průběh stahování:
@@ -46,7 +46,7 @@ Kód obce: 530743, Název obce: Bílkovice
 Kód obce: 532380, Název obce: Blažejovice
 Kód obce: 532096, Název obce: Borovnice
 ...
-Web scraping byl úspěšně dokončen. Výsledky jsou uloženy v souboru outfile.csv
+Web scraping byl úspěšně dokončen. Výsledky jsou uloženy v souboru vysledky_benesov.csv
 </pre>
 
 Část výstupu:
