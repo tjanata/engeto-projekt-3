@@ -9,9 +9,8 @@ Tento projekt slouží k extrahování výsledků parlamentních voleb z roku 20
 
 **Instalace knihoven**
 
-Použité knihovny jsou uvedeny v souboru <span style="background-color: grey;">"requirements.txt"</span>. Pro jejich instalaci využijte package manager <span style="background-color: grey;">"pip3"</span>.
+Použité knihovny jsou uvedeny v souboru **"requirements.txt"**. Pro jejich instalaci využijte package manager **"pip3"**.
 
-Použité knihovny jsou uvedeny v souboru | ![gray](https://via.placeholder.com/10/808080?text=+) | "requirements.txt" | Pro jejich instalaci využijte package manager
 
 <div style="background-color: lightgrey; padding: 5px;">
     <p style="color: black;">pip3 install -r requirements.txt   #nainstaluje knihovny</p>
