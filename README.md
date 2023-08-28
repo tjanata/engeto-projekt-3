@@ -40,12 +40,12 @@ Průběh stahování:
 
 ```python
 "Spouštím web scraper a stahuji data z vybraného volebního okrsku.."
-Kód obce: 529303, Název obce: Benešov
-Kód obce: 532568, Název obce: Bernartice
-Kód obce: 530743, Název obce: Bílkovice
-Kód obce: 532380, Název obce: Blažejovice
-Kód obce: 532096, Název obce: Borovnice
-...
-...
+"Kód obce: 529303, Název obce: Benešov"
+"Kód obce: 532568, Název obce: Bernartice"
+"Kód obce: 530743, Název obce: Bílkovice"
+"Kód obce: 532380, Název obce: Blažejovice"
+"Kód obce: 532096, Název obce: Borovnice"
+"..."
+"..."
 "Web scraping byl úspěšně dokončen. Výsledky jsou uloženy v souboru outfile.csv"
 ```
