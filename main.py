@@ -150,7 +150,7 @@ def main():
         return
 
     else:
-        print(f"Spouštím web scraper..")
+        print(f"Spouštím web scraper a stahuji data z vybraného volebního okrsku..")
 
         # Get the first subpage link
         response = requests.get(sys.argv[1])
@@ -176,7 +176,7 @@ def main():
         # Call function for scraping data from main URL
         scrape_and_save(sys.argv[1], sys.argv[2])
 
-        print(f"Web scraping byl úspěšně dokončen")
+        print(f"Web scraping byl úspěšně dokončen. Výsledky jsou uloženy v souboru {sys.argv[2]}")
         print(separator)
 
 if __name__ == '__main__':
