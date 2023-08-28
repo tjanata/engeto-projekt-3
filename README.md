@@ -49,3 +49,11 @@ Kód obce: 532096, Název obce: Borovnice
 ...
 Web scraping byl úspěšně dokončen. Výsledky jsou uloženy v souboru outfile.csv
 </pre>
+
+Část výstupu:
+
+<pre>
+Kód obce,Název obce,Voliči v seznamu,Vydané obálky,Platné hlasy,Občanská demokratická strana,Řád národa - Vlastenecká unie,...
+529303,Benešov,13 104,8 485,8 437,1 052,10,2,624,3,802,597,109,35,112,6,11,948,3,6,414,2 577,3,21,314,5,58,17,16,682,10
+532568,Bernartice,191,148,148,4,0,0,17,0,6,7,1,4,0,0,0,7,0,0,3,39,0,0,37,0,3,0,0,20,0
+</pre>
